@@ -1,6 +1,6 @@
 // src/config.js
 const config = {
-    API_BASE: 'http://192.168.1.100:5000/api', 
+    API_BASE: 'http://10.245.208.78:5000/api', 
   };
 
 export default config;
