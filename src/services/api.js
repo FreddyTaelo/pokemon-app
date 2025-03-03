@@ -6,12 +6,12 @@ export const getPokemonList = async () => {
     const response = await apiClient.get('/pokemon');
     return response.data;
   } catch (error) {
-    console.error("Failed to fetch Pokémon list:", error);
+    console.error("Failed to fetch Pokemon list:", error);
     return [];
   }
 };
 
-// Fetch Pokemon details by ID
+// fetch the pokemon details using id, 
 export const getPokemonDetails = async (id) => {
   try {
     const response = await apiClient.get(`/pokemon/${id}`);
@@ -25,7 +25,7 @@ export const getPokemonDetails = async (id) => {
       weight: data?.weight || 0,
     };
   } catch (error) {
-    console.error("Failed to fetch Pokémon details:", error);
+    console.error("Failed to fetch Pokemon details:", error);
     return { 
       name: 'Unknown', 
       image: 'https://via.placeholder.com/200',

@@ -18,7 +18,7 @@ const DetailScreen = ({ route }) => {
         setLoading(false);
       })
       .catch((error) => {
-        console.error("Failed to fetch Pokémon details:", error);
+        console.error("Failed to fetch Pokemon details:", error);
         setLoading(false);
       });
   }, [id]);
@@ -35,7 +35,7 @@ const DetailScreen = ({ route }) => {
     <ErrorBoundary>
       <ScrollView contentContainerStyle={styles.container}>
         <Image source={{ uri: pokemon.image }} style={styles.image} />
-        <Text style={styles.name}>{pokemon.name?.toUpperCase() || 'Unknown Pokémon'}</Text>
+        <Text style={styles.name}>{pokemon.name?.toUpperCase() || 'Unknown Pokemon'}</Text>
 
         <View style={styles.infoContainer}>
           <Text style={styles.info}>

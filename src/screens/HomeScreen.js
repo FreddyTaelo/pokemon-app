@@ -38,7 +38,7 @@ const HomeScreen = ({ navigation }) => {
       <View style={styles.header}>
         <TextInput
           style={styles.searchInput}
-          placeholder="Search Pokémon"
+          placeholder="Search Pokemon"
           value={search}
           onChangeText={handleSearch}
         />
@@ -46,7 +46,7 @@ const HomeScreen = ({ navigation }) => {
       </View>
 
       {filteredPokemons.length === 0 ? (
-        <Text style={styles.noData}>No Pokémon found. Try another search.</Text>
+        <Text style={styles.noData}>No Pokemon found. Try another search.</Text>
       ) : (
         <FlatList
           data={filteredPokemons}
