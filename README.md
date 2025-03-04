@@ -1,13 +1,49 @@
 # pokemon-app
 React Native APP
 
+File structure
+.
+├── App.js
+├── README.md
+├── app.json
+├── assets
+│   ├── adaptive-icon.png
+│   ├── details.png
+│   ├── favicon.png
+│   ├── grid.png
+│   ├── icon.png
+│   ├── list.png
+│   ├── nopokemonlist.png
+│   ├── pokeball.png
+│   ├── search.png
+│   └── splash-icon.png
+├── index.js
+├── package-lock.json
+├── package.json
+└── src
+    ├── components
+    │   ├── ErrorBoundary.js
+    │   ├── PokemonCard.js
+    │   ├── StatsList.js
+    │   └── TypeBadge.js
+    ├── config.js
+    ├── navigation
+    │   └── AppNavigator.js
+    ├── screens
+    │   ├── DetailScreen.js
+    │   └── HomeScreen.js
+    ├── services
+    │   ├── api.js
+    │   └── apiClient.js
+    └── styles
+        ├── DetailScreenStyles.js
+        └── HomeScreenStyles.js
+
 TODO:
-
 instructions to run
-
 add evolve button
-
 add test
+toggle list and grid with image
 
 // APP screenshots
 
