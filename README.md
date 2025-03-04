@@ -1,7 +1,8 @@
 # pokemon-app
 React Native APP
 
-File structure
+# Project File Structure
+```
 .
 ├── App.js
 ├── README.md
@@ -38,6 +39,7 @@ File structure
     └── styles
         ├── DetailScreenStyles.js
         └── HomeScreenStyles.js
+```
 
 TODO:
 instructions to run
