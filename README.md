@@ -1,5 +1,4 @@
-# pokemon-app
-React Native APP
+# React Native APP (POKEMON APP)
 
 # Project File Structure
 ```
@@ -41,8 +40,18 @@ React Native APP
         └── HomeScreenStyles.js
 ```
 
+
+Instructions to download and run
+```
+git clone https://github.com/FreddyTaelo/pokemon-app.git
+...
+````
+
+pre-requisites
+emulator/android phone/iphone
+
 TODO:
-instructions to run
+complete instructions to run
 add evolve button
 add test
 toggle list and grid with image
