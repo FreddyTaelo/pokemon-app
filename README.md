@@ -57,19 +57,15 @@ add test
 toggle list and grid with image
 
 // APP screenshots
+<table>
+  <tr>
+    <td><img src="assets/nopokemonlist.png" alt="Icon" width="300"/></td>
+    <td><img src="assets/grid.png" alt="Icon" width="300"/></td>
+    <td><img src="assets/list.png" alt="Icon" width="300"/></td>
+    <td><img src="assets/search.png" alt="Icon" width="300"/></td>
+    <td><img src="assets/details.png" alt="Icon" width="300"/></td>
+ </tr>
+</table>
 
-<img src="assets/nopokemonlist.png" alt="Icon" width="300"/>
-<img src="assets/grid.png" alt="Icon" width="300"/>
-<img src="assets/list.png" alt="Icon" width="300"/>
-<img src="assets/search.png" alt="Icon" width="300"/>
-<img src="assets/detail.png" alt="Icon" width="300"/>
 
-https://github.com/FreddyTaelo/pokemon-app/blob/main/assets/nopokemonlist.png
-
-https://github.com/FreddyTaelo/pokemon-app/blob/main/assets/grid.png
-
-https://github.com/FreddyTaelo/pokemon-app/blob/main/assets/list.png
-
-https://github.com/FreddyTaelo/pokemon-app/blob/main/assets/search.png
-
-https://github.com/FreddyTaelo/pokemon-app/blob/main/assets/detail.png
+![List](assets/list.png) ![Detail](assets/details.png) ![grid](assets/grid.png)
