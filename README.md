@@ -66,18 +66,21 @@ pre-requisites
 emulator/android phone/iphone
 
 TODO:
-complete instructions to run
 add evolve button
 add test
 toggle list and grid with image
 
 ## Instructions to download and run
 ```
-npm install -g expo-cli //install expo cli global
-git clone https://github.com/FreddyTaelo/pokemon-app.git // get project from github
-cd pokemon-app
-npm install // install dependencies
-npm expo start // start up
+$ npm install -g expo-cli //install expo cli global
+
+$ git clone https://github.com/FreddyTaelo/pokemon-app.git // get project from github
+
+$ cd pokemon-app
+
+$ npm install // install dependencies
+
+$ npm expo start // start up
 
 
 // make sure to have an emulator running or use your mobile phone to scan the QR code on the terminal, this will start the app for you.
