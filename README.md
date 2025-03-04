@@ -56,7 +56,9 @@ add evolve button
 add test
 toggle list and grid with image
 
-// APP screenshots
+# APP Demo
+Below are the various screenshots on the app
+
 <table>
   <tr>
     <th>No pokemon</th>
