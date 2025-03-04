@@ -41,22 +41,7 @@
 ```
 
 
-## Instructions to download and run
-```
-git clone https://github.com/FreddyTaelo/pokemon-app.git
-...
-````
-
-pre-requisites
-emulator/android phone/iphone
-
-TODO:
-complete instructions to run
-add evolve button
-add test
-toggle list and grid with image
-
-# APP Demo
+# APP Picture Demo
 Below are the various screenshots on the app
 
 <table>
@@ -75,3 +60,19 @@ Below are the various screenshots on the app
     <td><img src="assets/details.png" alt="Icon" width="300"/></td>
  </tr>
 </table>
+
+
+pre-requisites
+emulator/android phone/iphone
+
+TODO:
+complete instructions to run
+add evolve button
+add test
+toggle list and grid with image
+
+## Instructions to download and run
+```
+git clone https://github.com/FreddyTaelo/pokemon-app.git
+...
+````
