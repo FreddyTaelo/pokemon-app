@@ -59,6 +59,13 @@ toggle list and grid with image
 // APP screenshots
 <table>
   <tr>
+    <th>No pokemon</th>
+    <th>Grid view</th>
+    <th>Listview</th>
+    <th>Search</th>
+    <th>details</th>
+  </tr>
+  <tr>
     <td><img src="assets/nopokemonlist.png" alt="Icon" width="300"/></td>
     <td><img src="assets/grid.png" alt="Icon" width="300"/></td>
     <td><img src="assets/list.png" alt="Icon" width="300"/></td>
@@ -66,6 +73,3 @@ toggle list and grid with image
     <td><img src="assets/details.png" alt="Icon" width="300"/></td>
  </tr>
 </table>
-
-
-![List](assets/list.png) ![Detail](assets/details.png) ![grid](assets/grid.png)
