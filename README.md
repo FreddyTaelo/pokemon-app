@@ -58,9 +58,11 @@ toggle list and grid with image
 
 // APP screenshots
 
-No pokemon view
-<img src="assets/nopokemonlist.png" alt="Icon" width="200"/>
-
+<img src="assets/nopokemonlist.png" alt="Icon" width="300"/>
+<img src="assets/grid.png" alt="Icon" width="300"/>
+<img src="assets/list.png" alt="Icon" width="300"/>
+<img src="assets/search.png" alt="Icon" width="300"/>
+<img src="assets/detail.png" alt="Icon" width="300"/>
 
 https://github.com/FreddyTaelo/pokemon-app/blob/main/assets/nopokemonlist.png
 
