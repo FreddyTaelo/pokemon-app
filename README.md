@@ -41,7 +41,7 @@
 ```
 
 
-Instructions to download and run
+## Instructions to download and run
 ```
 git clone https://github.com/FreddyTaelo/pokemon-app.git
 ...
