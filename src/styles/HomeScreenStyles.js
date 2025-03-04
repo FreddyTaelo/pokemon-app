@@ -1,6 +1,6 @@
 import { StyleSheet, Dimensions } from 'react-native';
 
-const screenWidth = Dimensions.get('window').width;  // Get device width
+const screenWidth = Dimensions.get('window').width; 
 
 const styles = StyleSheet.create({
   container: { 
@@ -33,10 +33,10 @@ const styles = StyleSheet.create({
   listContainer: { 
     paddingBottom: 20, 
     paddingHorizontal: 5 
-  },  // 🟢 Added padding for better grid alignment
+  },  
   card: {
-    flex: 1,                     // 🟢 Auto-adjust width for grid view
-    margin: 5,                   // 🟢 Consistent margin for spacing
+    flex: 1,                     
+    margin: 5,                   
     backgroundColor: '#f8f8f8',
     borderRadius: 10,
     padding: 10,
@@ -46,8 +46,8 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2,
     shadowRadius: 4,
     elevation: 5,
-    maxWidth: (screenWidth / 2) - 15,   // 🟢 Prevent cards from being too wide
-    aspectRatio: 1,            // 🟢 Maintain consistent square shape
+    maxWidth: (screenWidth / 2) - 15,   
+    aspectRatio: 1,            
   },
   listCard: {
     flexDirection: 'row',
@@ -55,12 +55,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     padding: 12,
     marginVertical: 5,
-    width: '95%',              // 🟢 Full width for list view
+    width: '95%',        
   },
   image: { 
-    width: '80%',              // 🟢 Use percentage for better scaling
+    width: '80%',         
     height: undefined,
-    aspectRatio: 1,            // 🟢 Consistent square images
+    aspectRatio: 1,  
     marginBottom: 5,
   },
   name: { 
