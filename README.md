@@ -71,8 +71,6 @@ add evolve button
 
 add test
 
-toggle list and grid with image
-
 ## Instructions to download and run
 ```
 $ npm install -g expo-cli //install expo cli global
