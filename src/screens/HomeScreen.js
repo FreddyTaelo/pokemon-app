@@ -3,6 +3,8 @@ import { View, Text, FlatList, TextInput, Button } from 'react-native';
 import { getPokemonList } from '../services/api';
 import PokemonCard from '../components/PokemonCard';
 import styles from '../styles/HomeScreenStyles'; 
+import Icon from 'react-native-vector-icons/FontAwesome';
+import { TouchableOpacity } from 'react-native';
 
 const HomeScreen = ({ navigation }) => {
   const [pokemons, setPokemons] = useState([]);
@@ -42,7 +44,13 @@ const HomeScreen = ({ navigation }) => {
           value={search}
           onChangeText={handleSearch}
         />
-        <Button title={`Switch to ${viewType === 'grid' ? 'List' : 'Grid'} View`} onPress={toggleViewType} />
+         <TouchableOpacity onPress={toggleViewType} style={{ padding: 10 }}>
+          <Icon 
+            name={viewType === 'grid' ? 'th-list' : 'th'}
+            size={30} 
+            color="black" 
+          />
+        </TouchableOpacity>
       </View>
 
       {filteredPokemons.length === 0 ? (

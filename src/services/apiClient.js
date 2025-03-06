@@ -1,13 +1,16 @@
 import axios from 'axios';
-import config from '../config';
+import Constants from 'expo-constants';
 
-//const apiBaseURL = process.env.API_BASE;
+const apiBaseURL = Constants.expoConfig.extra.API_BASE //|| "http://ec2-13-60-74-36.eu-north-1.compute.amazonaws.com";
+
+console.log("Axios Base URL:", apiBaseURL);
 
 const apiClient = axios.create({
-  baseURL: process.env.API_BASE,//config.API_BASE,
+  baseURL: apiBaseURL,//config.API_BASE,
   timeout: 5000,  
 });
 
+console.log("Axios Client Config:", apiClient.defaults.baseURL);
 
 apiClient.interceptors.response.use(
   response => response,

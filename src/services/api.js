@@ -4,6 +4,7 @@ import pokemonPlaceHolder from '../../assets/unavailable.png'
 
 export const getPokemonList = async () => {
   try {
+    console.log("Fetching the 1st 100 pokemons ...")
     const response = await apiClient.get('/pokemon');
     return response.data;
   } catch (error) {
@@ -26,7 +27,7 @@ export const getPokemonDetails = async (id) => {
       weight: data?.weight || 0,
     };
   } catch (error) {
-    console.error("Failed to fetch Pokemon details:", error);
+    console.error("Failed to fetch Pokemon details for pokemon id "+ id +": f", error);
     return { 
       name: 'Unknown', 
       image: {pokemonPlaceHolder},

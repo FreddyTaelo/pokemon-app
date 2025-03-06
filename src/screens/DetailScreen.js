@@ -12,6 +12,7 @@ const DetailScreen = ({ route }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    console.log("retrieve pokemon details for id " + id)
     getPokemonDetails(id)
       .then((data) => {
         setPokemon(data);
@@ -39,7 +40,7 @@ const DetailScreen = ({ route }) => {
 
         <View style={styles.infoContainer}>
           <Text style={styles.info}>
-            Height: {pokemon.height || 'N/A'} | Weight: {pokemon.weight || 'N/A'}
+            Height: {pokemon.height || 'unknown'} | Weight: {pokemon.weight || 'unknown'}
           </Text>
 
           <View style={styles.typeContainer}>
