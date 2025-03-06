@@ -19,7 +19,7 @@ export const getPokemonDetails = async (id) => {
     const response = await apiClient.get(`/pokemon/${id}`);
     const data = response.data;
     return {
-      name: data?.name ?? 'Unknown',
+      name: data?.name ?? 'https://fakeimg.pl/600x400',
       image: data?.image ?? {pokemonPlaceHolder},        
       types: Array.isArray(data.types) ? data.types.join(', ') : 'unknown',
       stats: data?.stats || [],
@@ -30,7 +30,7 @@ export const getPokemonDetails = async (id) => {
     console.error("Failed to fetch Pokemon details for pokemon id "+ id +": f", error);
     return { 
       name: 'Unknown', 
-      image: {pokemonPlaceHolder},
+      image: 'https://fakeimg.pl/600x400',
       types: 'unknown',
       stats: [],
       height: 0,
