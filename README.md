@@ -66,8 +66,11 @@ pre-requisites
 emulator/android phone/iphone
 
 TODO:
+
 add evolve button
+
 add test
+
 toggle list and grid with image
 
 ## Instructions to download and run
