@@ -28,7 +28,7 @@ const DetailScreen = ({ route }) => {
   }
 
   if (!pokemon) {
-    return <Text style={styles.errorText}>Failed to load Pokémon details.</Text>;
+    return <Text style={styles.errorText}>Failed to load Pokemon details.</Text>;
   }
 
   return (

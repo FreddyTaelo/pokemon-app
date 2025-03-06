@@ -1,4 +1,5 @@
 import apiClient from './apiClient';
+import pokemonPlaceHolder from '../../assets/unavailable.png'
 
 
 export const getPokemonList = async () => {
@@ -18,7 +19,7 @@ export const getPokemonDetails = async (id) => {
     const data = response.data;
     return {
       name: data?.name ?? 'Unknown',
-      image: data?.image ?? 'https://via.placeholder.com/200',        
+      image: data?.image ?? {pokemonPlaceHolder},        
       types: Array.isArray(data.types) ? data.types.join(', ') : 'unknown',
       stats: data?.stats || [],
       height: data?.height || 0,
@@ -28,7 +29,7 @@ export const getPokemonDetails = async (id) => {
     console.error("Failed to fetch Pokemon details:", error);
     return { 
       name: 'Unknown', 
-      image: 'https://via.placeholder.com/200',
+      image: {pokemonPlaceHolder},
       types: 'unknown',
       stats: [],
       height: 0,

@@ -1,12 +1,14 @@
 import axios from 'axios';
 import config from '../config';
 
+//const apiBaseURL = process.env.API_BASE;
+
 const apiClient = axios.create({
-  baseURL: config.API_BASE,
-  timeout: 5000,  // Timeout after 5 seconds
+  baseURL: process.env.API_BASE,//config.API_BASE,
+  timeout: 5000,  
 });
 
-// Interceptor for handling responses
+
 apiClient.interceptors.response.use(
   response => response,
   error => {
