@@ -19,8 +19,8 @@ export const getPokemonDetails = async (id) => {
     const response = await apiClient.get(`/pokemon/${id}`);
     const data = response.data;
     return {
-      name: data?.name ?? 'https://fakeimg.pl/600x400',
-      image: data?.image ?? {pokemonPlaceHolder},        
+      name: data?.name ?? 'Unknown',
+      image: data?.image ?? 'https://fakeimg.pl/600x400',        
       types: Array.isArray(data.types) ? data.types.join(', ') : 'unknown',
       stats: data?.stats || [],
       height: data?.height || 0,

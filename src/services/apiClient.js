@@ -10,7 +10,7 @@ const apiClient = axios.create({
   timeout: 5000,  
 });
 
-console.log("Axios Client Config:", apiClient.defaults.baseURL);
+console.log("Axios Client Config base url:", apiClient.defaults.baseURL);
 
 apiClient.interceptors.response.use(
   response => response,

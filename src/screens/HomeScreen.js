@@ -30,6 +30,11 @@ const HomeScreen = ({ navigation }) => {
       setFilteredPokemons(pokemons);
     }
   };
+
+  const clearSearch = () => {
+    setSearch('');
+    setFilteredPokemons(pokemons);
+  };
   
   const toggleViewType = () => {
     setViewType((prevType) => (prevType === 'grid' ? 'list' : 'grid'));
@@ -50,6 +55,9 @@ const HomeScreen = ({ navigation }) => {
             size={30} 
             color="black" 
           />
+        </TouchableOpacity>
+        <TouchableOpacity onPress={clearSearch} style={{ padding: 10 }}>
+          <Icon name="times" size={30} color="black" />
         </TouchableOpacity>
       </View>
 
